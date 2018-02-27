@@ -1,0 +1,6 @@
+framework module Pods_DragonBall {
+  umbrella header "Pods-DragonBall-umbrella.h"
+
+  export *
+  module * { export * }
+}

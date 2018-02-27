@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A6135D861F18BC8A00DF15CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A6135D851F18BC8A00DF15CB /* main.m */; };
+		A6135D891F18BC8A00DF15CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A6135D881F18BC8A00DF15CB /* AppDelegate.m */; };
+		A6135D8C1F18BC8A00DF15CB /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6135D8B1F18BC8A00DF15CB /* MainViewController.m */; };
+		A6135D8F1F18BC8A00DF15CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6135D8D1F18BC8A00DF15CB /* Main.storyboard */; };
+		A6135D911F18BC8A00DF15CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6135D901F18BC8A00DF15CB /* Assets.xcassets */; };
+		A6135D941F18BC8A00DF15CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6135D921F18BC8A00DF15CB /* LaunchScreen.storyboard */; };
+		A6135D9D1F18D25400DF15CB /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6135D9C1F18D25400DF15CB /* LoginViewController.m */; };
+		A6135DA01F18DE8E00DF15CB /* PlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A6135D9F1F18DE8E00DF15CB /* PlayViewController.m */; };
+		ECAF27CF247758AFAEC03686 /* Pods_DragonBall.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F32D84E062C4AE46792BC54 /* Pods_DragonBall.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F32D84E062C4AE46792BC54 /* Pods_DragonBall.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DragonBall.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BE92CE1F190FEC001E7025 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		26E29769D051E9B61FBA247F /* Pods-DragonBall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragonBall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragonBall/Pods-DragonBall.debug.xcconfig"; sourceTree = "<group>"; };
+		A6135D811F18BC8A00DF15CB /* DragonBall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragonBall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6135D851F18BC8A00DF15CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A6135D871F18BC8A00DF15CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A6135D881F18BC8A00DF15CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A6135D8A1F18BC8A00DF15CB /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		A6135D8B1F18BC8A00DF15CB /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		A6135D8E1F18BC8A00DF15CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A6135D901F18BC8A00DF15CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A6135D931F18BC8A00DF15CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A6135D951F18BC8A00DF15CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A6135D9B1F18D25400DF15CB /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		A6135D9C1F18D25400DF15CB /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		A6135D9E1F18DE8E00DF15CB /* PlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayViewController.h; sourceTree = "<group>"; };
+		A6135D9F1F18DE8E00DF15CB /* PlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayViewController.m; sourceTree = "<group>"; };
+		A63DE5C91F3B712E006E3FD0 /* earth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = earth.png; sourceTree = "<group>"; };
+		A63DE5CA1F3B7131006E3FD0 /* dragonBall1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dragonBall1.png; sourceTree = "<group>"; };
+		E06F893DE9BD3399A641E02F /* Pods-DragonBall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragonBall.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragonBall/Pods-DragonBall.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A6135D7E1F18BC8900DF15CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECAF27CF247758AFAEC03686 /* Pods_DragonBall.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63AA6739558279793118E0DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F32D84E062C4AE46792BC54 /* Pods_DragonBall.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A6135D781F18BC8900DF15CB = {
+			isa = PBXGroup;
+			children = (
+				A6135D831F18BC8A00DF15CB /* DragonBall */,
+				A6135D821F18BC8A00DF15CB /* Products */,
+				F2FB2F243119CAB53A0B27CE /* Pods */,
+				63AA6739558279793118E0DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A6135D821F18BC8A00DF15CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6135D811F18BC8A00DF15CB /* DragonBall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6135D831F18BC8A00DF15CB /* DragonBall */ = {
+			isa = PBXGroup;
+			children = (
+				A6135D9E1F18DE8E00DF15CB /* PlayViewController.h */,
+				A6135D9F1F18DE8E00DF15CB /* PlayViewController.m */,
+				A6135D871F18BC8A00DF15CB /* AppDelegate.h */,
+				A6135D881F18BC8A00DF15CB /* AppDelegate.m */,
+				A6135D8A1F18BC8A00DF15CB /* MainViewController.h */,
+				A6135D8B1F18BC8A00DF15CB /* MainViewController.m */,
+				A6135D9B1F18D25400DF15CB /* LoginViewController.h */,
+				A6135D9C1F18D25400DF15CB /* LoginViewController.m */,
+				10BE92CE1F190FEC001E7025 /* arrow.png */,
+				A63DE5CA1F3B7131006E3FD0 /* dragonBall1.png */,
+				A63DE5C91F3B712E006E3FD0 /* earth.png */,
+				A6135D8D1F18BC8A00DF15CB /* Main.storyboard */,
+				A6135D901F18BC8A00DF15CB /* Assets.xcassets */,
+				A6135D921F18BC8A00DF15CB /* LaunchScreen.storyboard */,
+				A6135D951F18BC8A00DF15CB /* Info.plist */,
+				A6135D841F18BC8A00DF15CB /* Supporting Files */,
+			);
+			path = DragonBall;
+			sourceTree = "<group>";
+		};
+		A6135D841F18BC8A00DF15CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A6135D851F18BC8A00DF15CB /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F2FB2F243119CAB53A0B27CE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26E29769D051E9B61FBA247F /* Pods-DragonBall.debug.xcconfig */,
+				E06F893DE9BD3399A641E02F /* Pods-DragonBall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6135D801F18BC8900DF15CB /* DragonBall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6135D981F18BC8A00DF15CB /* Build configuration list for PBXNativeTarget "DragonBall" */;
+			buildPhases = (
+				220E217DF207314679C576F5 /* [CP] Check Pods Manifest.lock */,
+				A6135D7D1F18BC8900DF15CB /* Sources */,
+				A6135D7E1F18BC8900DF15CB /* Frameworks */,
+				A6135D7F1F18BC8900DF15CB /* Resources */,
+				FB3B8DA8F3D8606B0C362CBF /* [CP] Embed Pods Frameworks */,
+				3BEA5CA412D98742F576F4F1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragonBall;
+			productName = DragonBall;
+			productReference = A6135D811F18BC8A00DF15CB /* DragonBall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6135D791F18BC8900DF15CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Sergio Perticone";
+				TargetAttributes = {
+					A6135D801F18BC8900DF15CB = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = P46896UY49;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A6135D7C1F18BC8900DF15CB /* Build configuration list for PBXProject "DragonBall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6135D781F18BC8900DF15CB;
+			productRefGroup = A6135D821F18BC8A00DF15CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6135D801F18BC8900DF15CB /* DragonBall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A6135D7F1F18BC8900DF15CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6135D941F18BC8A00DF15CB /* LaunchScreen.storyboard in Resources */,
+				A6135D911F18BC8A00DF15CB /* Assets.xcassets in Resources */,
+				A6135D8F1F18BC8A00DF15CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		220E217DF207314679C576F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragonBall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BEA5CA412D98742F576F4F1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragonBall/Pods-DragonBall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3B8DA8F3D8606B0C362CBF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DragonBall/Pods-DragonBall-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ARCL/ARCL.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ARCL.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DragonBall/Pods-DragonBall-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A6135D7D1F18BC8900DF15CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6135D9D1F18D25400DF15CB /* LoginViewController.m in Sources */,
+				A6135D8C1F18BC8A00DF15CB /* MainViewController.m in Sources */,
+				A6135D891F18BC8A00DF15CB /* AppDelegate.m in Sources */,
+				A6135DA01F18DE8E00DF15CB /* PlayViewController.m in Sources */,
+				A6135D861F18BC8A00DF15CB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A6135D8D1F18BC8A00DF15CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6135D8E1F18BC8A00DF15CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A6135D921F18BC8A00DF15CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A6135D931F18BC8A00DF15CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A6135D961F18BC8A00DF15CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6135D971F18BC8A00DF15CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6135D991F18BC8A00DF15CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26E29769D051E9B61FBA247F /* Pods-DragonBall.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P46896UY49;
+				INFOPLIST_FILE = DragonBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.skillbill.DragonRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A6135D9A1F18BC8A00DF15CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06F893DE9BD3399A641E02F /* Pods-DragonBall.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P46896UY49;
+				INFOPLIST_FILE = DragonBall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.skillbill.DragonRadar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A6135D7C1F18BC8900DF15CB /* Build configuration list for PBXProject "DragonBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6135D961F18BC8A00DF15CB /* Debug */,
+				A6135D971F18BC8A00DF15CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6135D981F18BC8A00DF15CB /* Build configuration list for PBXNativeTarget "DragonBall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6135D991F18BC8A00DF15CB /* Debug */,
+				A6135D9A1F18BC8A00DF15CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6135D791F18BC8900DF15CB /* Project object */;
+}

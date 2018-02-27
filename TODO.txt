@@ -1,0 +1,13 @@
+I punti inseriti nel TODO non hanno ordine di esecuzione, Edoardo non rompere niente!
+
+- passaggio del codice a Swift
+
+- aggiustare le texture delle sfere
+
+- permettere l’inserimento di un oggetto attaccato alla camera e non al piano
+
+- alla pressione della sfera questa scompare (funzione la fa sparire)
+
+- supportare la fine del gioco con una schermata
+
+- capire come calcolare la direzione della freccia
